@@ -1,1 +1,30 @@
 /* ...crickets... */
+.title{
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    font-weight: normal;
+}
+.subtitle{
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    font-size: 25px;
+    font-weight: normal;
+    }
+
+
+.content{
+        font-family: Comic Sans MS;
+        padding: 0px;
+        font-weight: normal;
+}
+
+.emph{
+    font-style: italic;
+}
+p{
+    font-size: 14px;
+    font-weight:bold;
+    margin: 0px;
+}

@@ -19,23 +19,42 @@ li {
 /* ADD CSS BELOW */
 
 body {
+
 }
 
 h1,
 h2 {
+  font-family:'Yanone Kaffeesatz', sans-serif;
 }
 
 h1 {
+  text-align: center;
+  font-size: 2em;
+  padding: 30px;
+
 }
 
 h2 {
 }
 
 .row {
+  display: flex;
+  justify-content: space-around;
+  flex: 2 2 1;
+  list-style-type:none;
+  
 }
 
 .col {
+  border: dashed rgb(194, 194, 194);
+  background-color: rgba(241, 241, 241, 0.849);
+  font-size: 1.5em;
+  text-align: center;
+  padding-top: 15px;
 }
 
 .image {
+  padding: 15px 10px 10px 10px;
+  height: 200px;
+  
 }
